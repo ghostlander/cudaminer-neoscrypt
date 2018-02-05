@@ -1,0 +1,16 @@
+In order to build this NeoScrypt CUDAminer on Windows, you need the following:
+
+1) the NVIDIA CUDA Toolkit 6.5 or newer installed;
+
+2) Microsoft Visual Studio 2010, express or any commercial, though a newer one
+may do as long as it's supported by the CUDA Toolkit;
+
+3) any not so old NVAPI distribution (copy headers to compat/nvapi and nvapi.lib
+to compat/lib32 or compat/lib64 or both);
+
+4) the cURL library from https://curl.haxx.se (copy headers to compat/curl and
+curl.lib to compat/lib32 or compat/lib64 or both);
+
+5) the pthreadVC2 library from http://sourceware.org/pthreads-win32
+(copy pthread.h and sched.h to compat/pthreads and pthreadVC2.lib to
+compat/lib32 or compat/lib64 or both).
