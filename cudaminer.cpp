@@ -243,7 +243,7 @@ struct option const options[] = {
 	{ "debug", 0, NULL, 'D' },
 	{ "help", 0, NULL, 'h' },
 	{ "intensity", 1, NULL, 'i' },
-	{ "mode", 0, NULL, 'i' },
+	{ "mode", 1, NULL, 'm' },
 	{ "ndevs", 0, NULL, 'n' },
 	{ "no-color", 0, NULL, 1002 },
 	{ "no-gbt", 0, NULL, 1011 },
