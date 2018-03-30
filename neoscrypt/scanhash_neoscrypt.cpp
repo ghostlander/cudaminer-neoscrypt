@@ -54,8 +54,12 @@ extern "C" int scanhash_neoscrypt(int thr_id, uint *pdata, const uint *ptarget,
         throughput = 15 * 128 * 64;
         if(!hash_mode) hash_mode = 2;
     }
-    else if(strstr(props.name, "1060")) {
+    else if(strstr(props.name, "1060 6GB")) {
         throughput = 10 * 128 * 64;
+        if(!hash_mode) hash_mode = 2;
+    }
+    else if(strstr(props.name, "1060 3GB")) {
+        throughput = 9 * 128 * 32;
         if(!hash_mode) hash_mode = 2;
     }
     else if(strstr(props.name, "TITAN X")) {
