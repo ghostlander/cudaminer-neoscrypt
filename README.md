@@ -11,7 +11,8 @@ To be compiled with GCC v4.7+ on Linux and Visual Studio 2010
 (or vs2010 target in newer Visual Studio distributions) on Windows XP
 and up the way, 32-bit and 64-bit.
 
-Supports the NVIDIA Maxwell and Pascal architecture GPUs only.
+Supports the NVIDIA Kepler (GK110), Maxwell and Pascal architecture
+GPUs only. Compute capability 3.5+ required due to funnel shift use.
 
 Regards,
 John Doering aka Ghostlander

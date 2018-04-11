@@ -58,8 +58,8 @@ BOOL WINAPI ConsoleHandler(DWORD);
 
 extern void sha256d(unsigned char *hash, const unsigned char *data, int len);
 
-#define PROGRAM_NAME		"ccminer"
-#define LP_SCANTIME		30
+#define PROGRAM_NAME "cudaminer"
+#define LP_SCANTIME 30
 #define MNR_BLKHDR_SZ 80
 
 // from cuda.cpp
