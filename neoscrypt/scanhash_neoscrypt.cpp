@@ -94,6 +94,26 @@ extern "C" int scanhash_neoscrypt(int thr_id, uint *pdata, const uint *ptarget,
         throughput = 4 * 128 * 64;
         if(!hash_mode) hash_mode = 1;
     }
+    else if(strstr(props.name, "TITAN Z")) {
+        throughput = 15 * 192 * 32;
+        if(!hash_mode) hash_mode = 1;
+    }
+    else if(strstr(props.name, "TITAN Black")) {
+        throughput = 15 * 192 * 32;
+        if(!hash_mode) hash_mode = 1;
+    }
+    else if(strstr(props.name, "TITAN")) {
+        throughput = 14 * 192 * 32;
+        if(!hash_mode) hash_mode = 1;
+    }
+    else if(strstr(props.name, "780 Ti")) {
+        throughput = 15 * 192 * 16;
+        if(!hash_mode) hash_mode = 1;
+    }
+    else if(strstr(props.name, "780")) {
+        throughput = 12 * 192 * 16;
+        if(!hash_mode) hash_mode = 1;
+    }
     else
       intensity = 14;
 

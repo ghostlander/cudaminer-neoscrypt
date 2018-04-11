@@ -113,7 +113,7 @@
       <MaxRegCount>128</MaxRegCount>
       <PtxAsOptionV>true</PtxAsOptionV>
       <Keep>false</Keep>
-      <CodeGeneration>compute_50,sm_50;</CodeGeneration>
+      <CodeGeneration>compute_35,sm_35;compute_50,sm_50;</CodeGeneration>
     </CudaCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -142,7 +142,7 @@
       <MaxRegCount>128</MaxRegCount>
       <PtxAsOptionV>true</PtxAsOptionV>
       <Keep>true</Keep>
-      <CodeGeneration>compute_50,sm_50;</CodeGeneration>
+      <CodeGeneration>compute_35,sm_35;compute_50,sm_50;</CodeGeneration>
       <Include>$(NVTOOLSEXT_PATH)\include;..\..\..\Common\C99</Include>
     </CudaCompile>
     <CudaLink>
@@ -184,7 +184,7 @@
       <MaxRegCount>128</MaxRegCount>
       <PtxAsOptionV>true</PtxAsOptionV>
       <Keep>true</Keep>
-      <CodeGeneration>compute_50,sm_50;</CodeGeneration>
+      <CodeGeneration>compute_35,sm_35;compute_50,sm_50;</CodeGeneration>
       <AdditionalOptions>--ptxas-options="-O3" %(AdditionalOptions)</AdditionalOptions>
       <Defines>
       </Defines>
@@ -229,7 +229,7 @@
       <MaxRegCount>128</MaxRegCount>
       <PtxAsOptionV>true</PtxAsOptionV>
       <Keep>false</Keep>
-      <CodeGeneration>compute_50,sm_50;</CodeGeneration>
+      <CodeGeneration>compute_35,sm_35;compute_50,sm_50;</CodeGeneration>
       <Include>
       </Include>
       <TargetMachinePlatform>64</TargetMachinePlatform>
