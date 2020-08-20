@@ -48,7 +48,7 @@ extern "C" int scanhash_neoscrypt(int thr_id, uint *pdata, const uint *ptarget,
     }
     else if(strstr(props.name, "1070 Ti")) {
         throughput = 19 * 128 * 32;
-        if(!hash_mode) hash_mode = 2;
+        if(!hash_mode) hash_mode = 3;
     }
     else if(strstr(props.name, "1070")) {
         throughput = 15 * 128 * 64;
@@ -64,11 +64,11 @@ extern "C" int scanhash_neoscrypt(int thr_id, uint *pdata, const uint *ptarget,
     }
     else if(strstr(props.name, "TITAN X")) {
         throughput = 24 * 128 * 32;
-        if(!hash_mode) hash_mode = 1;
+        if(!hash_mode) hash_mode = 3;
     }
     else if(strstr(props.name, "980 Ti")) {
         throughput = 22 * 128 * 32;
-        if(!hash_mode) hash_mode = 1;
+        if(!hash_mode) hash_mode = 3;
     }
     else if(strstr(props.name, "980")) {
         throughput = 16 * 128 * 32;
